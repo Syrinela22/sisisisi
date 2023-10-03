@@ -1,0 +1,79 @@
+Exercice 1:
+a) affiche b
+b) affiche le code ASCII de b (98)
+c)affiche a 
+la valeur 353 sera réduite modulo 256, car char est souvent implémenté avec un octet (8 bits), ce qui signifie que le résultat sera 353 % 256 = 97. Le programme affichera alors le caractère correspondant au code ASCII 97, qui est la lettre 'a'.
+Exercice 2:
+#include<stdio.h>
+int main () {
+int m, n;
+printf("m");
+scanf("%d",&m);
+printf("m=%d\n",m);
+printf("n");
+scanf("%d",&n);
+printf("n=%d\n",n);
+printf("%d+%d=%d\n",n);
+printf("%d-%d=%d\n",m,n);
+return 0;
+}
+Exercice 3:
+#include <stdio.h>
+int main() {
+    int A, B, C, Z;
+    printf("Saisissez la valeur de A : ");
+    scanf("%d", &A);
+    printf("Saisissez la valeur de B : ");
+    scanf("%d", &B);
+    printf("Saisissez la valeur de C : ");
+    scanf("%d", &C);
+    Z= A;
+    A = B;
+    B = C;
+    C = Z;
+    printf("Après l'échange :\n");
+    printf("A : %d\n", A);
+    printf("B : %d\n", B);
+    printf("C : %d\n", C);
+    return 0;
+}
+Exercice 4:
+ x          17     17     17     17    17    17    17    17    17
+ y          null   3      3      3     3     3     3     3     3
+ resulat    null   null   20     14    51    5     5     5     5
+ c          null   null   null   null  null  null  6     6     5
+Exercice 5:
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double Q;
+    int a, b;
+    printf("Entrez un réel Q : ");
+    scanf("%lf", &Q);
+    printf("Entrez un entier a : ");
+    scanf("%d", &a);
+    printf("Entrez un entier b : ");
+    scanf("%d", &b);
+    printf("Le résultat de l'expression est : %.3lf\n", Q);
+    return 0;
+}
+Exercice 6:
+#include <stdio.h>
+
+int main() {
+    int ins, pres;
+    float prct;
+    printf("Nombre de candidats inscrits ? ");
+    scanf("%d", &ins);
+    printf("Nombre de candidats présents ? ");
+    scanf("%d", &pres);
+    pourcentage = ((float)pres/ ins) * 100.0;
+    printf("Nombre de candidats inscrits = %d\n", insc)
+    printf("Nombre de candidats présents = %d\n", pres);
+    printf("Pourcentage de présence = %.1f %%\n", prct);
+
+    return 0;
+}
+
+
